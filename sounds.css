@@ -1,0 +1,120 @@
+body
+{
+    /*
+    background-color: #D2BFAB; /* Background Color: #D2BFAB 
+    background: linear-gradient(90deg,hsl(140, 29%, 46%),#326987); */
+    
+
+    width: 89%;
+    min-height:200px;
+    padding:5%;
+    background-image: linear-gradient(rgba(0, 8, 51, 0.9),rgba(0, 8, 51, 0.9)),url("sounds-background.png");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.idk
+{
+    float: left; /* Float: Left */
+    font-family: "Monaco", monospace; /* Font: Monaco, Spacing: Monospace */
+    color: #0047AB;
+    margin-left: 1%;
+}
+
+.btn
+{
+    color: #0047AB;
+    border: 1px solid #0047AB;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+}
+
+.btn:hover{
+    color: #4C516D;
+    border: #4C516D;
+    box-shadow: 1px 1px 15px 5px #4C516D;
+}
+/*.btn::before{
+    border: 1px solid blue;
+    content:"";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:-1;
+    transition: 0.8s;
+
+}
+.btn1::before{
+top:0;
+border-radius: 0 0 50% 50%;
+}
+
+.btn1:hover::before{
+    height: 180%;
+}
+*/
+
+form
+{
+    color: #FFFDD0; /* Header 1 Text Color: #FFFDD0 */
+    text-align: center;
+    text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; /* Text Outline Color: Black , (1px) */
+}
+
+.grid-container 
+{
+    column-gap: 10%;
+    row-gap: 5%;
+    display: grid;
+    grid-auto-rows: 275%;
+    grid-template-columns: 45% 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*background-color: #FFFFFF;*/
+}
+
+.grid-item
+{
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    /*padding: 20px;*/
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+header
+{
+    color: #0047AB; /* Header 1 Text Color: #FFFDD0 */
+    font-size: 100px; /* Text Size: 40 */
+    font-family: "Monaco", monospace; /* Font: Monaco, Spacing: Monospace */
+    font-weight: bold; /* Weight: Bold */
+    margin-right: 40px; /* Right Margin: 40px */
+    text-align: center; /* Alignment: Center */
+}
+
+h1
+{
+    color: #0047AB; /* Header 1 Text Color: #FFFDD0 */
+    font-size: 40px; /* Text Size: 40 */
+    margin-left: 45%;
+}
+
+
+p
+{
+    color: #0047AB; /* Paragraph Text Color: #CCF6BE */
+    font-family: "Monaco", monospace; /* Font: Monaco, Spacing: Monospace */
+    font-size: 20px; /* Text Size: 20 */
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; /* Text Outline Color: Black , (1px) */
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center; /* Alignment: Center */
+}

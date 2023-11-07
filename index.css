@@ -1,0 +1,227 @@
+ 
+
+*{
+    margin:0; /*no whitepace*/
+    padding:0; /*no whitepace*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+/*/////////////////////////////// HEADER ///////////////////////////////////////*/
+
+
+.header{
+
+        font-weight: bold;
+        font-size: 40px;
+        align-items: center;
+        overflow: hidden;
+        height: 520px; 
+        text-align: center;
+        border-bottom: solid white;   
+}
+.header h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-95%, -300%);
+    z-index: 1;
+    color: white; 
+}
+
+.headertxt p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-200%, -250%);
+    z-index: 2;
+    color: white; 
+}
+
+.header img{
+    position:relative;  
+    bottom: 80px;
+    width: 100%;
+}
+
+.headertxt{
+
+    border: white;
+    z-index: 3;
+    background-color: aliceblue;
+}
+
+
+/*/////////////////////////////// STATEMENT ///////////////////////////////////////*/
+
+.statement{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    font-size: 20px;   
+    flex-direction: column;
+    text-align: center;
+    line-height: 40px;
+    background: linear-gradient(to bottom, #2e7420, #66d967);
+    border-bottom: white;
+    font-weight: bold;
+}
+
+.p1 {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+
+/*/////////////////////////////// SOUND ///////////////////////////////////////*/
+
+.sound{
+        height:500px;
+        align-items: center;
+        display: flex;
+        margin-top:50;
+        border-bottom: 2px solid white;
+        justify-content: space-between; 
+        background: linear-gradient(to Right, #0d0a6a, #605cf0);
+}
+
+.box {
+    height: 100%;
+    width: 50%;
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.sounddesc {
+    height: 250px;
+    width: 500px;
+        
+}
+
+.sounddesc h1 {
+    font-size: 50px;
+    margin-top: -10%;
+}
+
+.sounddesc p{
+    margin-bottom: 50px;
+}
+
+.sound img{
+            position: relative;
+            height:400px;
+            width:400px;
+            border: solid white 5px;
+            border-radius: 20%; /* Changes corner to circular */
+            left: 30%;
+            background-color: #d2b49f;
+}
+
+.sound img:hover{
+box-shadow: 1px 1px 30px 5px white;
+}
+
+/*/////////////////////////////// MEDITATION ///////////////////////////////////////*/
+
+.meditation {
+            height:500px;
+            background-color: #d2b49f;
+            align-items: center;
+            display: flex;
+            border-bottom: 2px solid white;
+            justify-content: space-between; 
+        
+}
+
+
+.meditation img{
+                height: 400px;
+                width: 400px;
+                border-radius: 20%;
+                border: solid white 5px;  
+}
+
+.meditation img:hover{
+    box-shadow: 1px 1px 30px 5px white;
+}
+
+.meditation-content{
+                flex: 1;
+                display: flex;
+                justify-content: flex-end;
+                align-items: center;
+                margin-right: 8.5%;
+}
+
+.meditationdesc{
+    height: 400px;
+    width: 500px;
+}
+
+.sounddesc h1 {
+    font-size: 50px;
+    margin-top: -10%;
+}
+
+.sounddesc p{
+    margin-bottom: 10px;
+}
+
+
+/*/////////////////////////////// STRESS ///////////////////////////////////////*/
+
+.stress{
+    height:500px;
+    background-color: #d2b49f;
+    align-items: center;
+    display: flex;
+    margin-top:50;
+    border-bottom: 2px solid white;
+    justify-content: space-between; 
+}
+    
+.stress img{
+            position: relative;
+            height:400px;
+            width:400px;
+            border: solid white 5px;
+            border-radius: 20%; /* Changes corner to circular */
+            left: 30%;
+}
+
+.stress img:hover{
+    box-shadow: 1px 1px 30px 5px white;
+}
+
+.stressdesc{
+    height: 400px;
+    width: 500px;
+}
+
+.sounddesc h1 {
+    font-size: 50px;
+    margin-top: -10%;
+}
+
+.sounddesc p1{
+    margin-bottom: 10px;
+}
+
+
+/*/////////////////////////////// QUOTE ///////////////////////////////////////*/
+
+.quote{
+    background: #d2b49f;
+    height: 300px;
+    display: flex;
+    align-items: center; /* VERT CENTER */
+    justify-content: center; /* PUTS SHIT IN DEAD CENTER HORIZONTAL*/
+    border-bottom: 10px solid white;
+    color: white;
+    font-size: large;   
+    flex-direction: column; /* LINES UP COLUMNS*/
+}

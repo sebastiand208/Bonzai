@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homepage</title>
+        <link rel="stylesheet" href="index.css"/>
+        
+    </head>
+    <body>
+        <div class = "header">
+                <h1> Welcome to Bonsai </h1>
+        <div class = "headertxt"> 
+         <p id="time">Good Evening!</p> 
+        </div>
+            <img src = "matt3.jpg"/> 
+        </div>
+
+
+        <div class = "statement">
+            <p> Discover a sanctuary of calm and tranquility at Bonzai. </p>
+            <p> Unwind, relax, and rejuvenate with our curated collection of expertly crafted stress relief resources, designed to bring balance back into your life.  </p>
+            <p> Embrace a journey towards inner peace and well-being, and let us guide you towards a more serene and centered you.</p>
+        </div>
+
+
+        <div class = "sound">
+           
+            <div class = "soundimg">
+                <a href = "sounds.html">
+                    <img src="sound-library.png" >
+                </a>
+            </div>
+            
+            <div class = "box">
+                <div class= "sounddesc">
+                    <h1> Relaxation Sounds </h1>
+                    <p1>Dive into tranquility with our Relaxation Soundscapes feature</p>
+                    <p1>Users can immerse themselves in a rich collection of meticulously curated relaxing sounds</p>
+                    <p1>With just a few taps, experience the serenity of nature or the soothing ambiance of a spa, right from the comfort of your device</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class = "meditation">
+            
+            <div class= "meditationdesc">
+                <h1> Meditation and Breathing </h1>
+                <p1>Discover inner peace and serenity with our Guided Meditation Sessions feature</p>
+                <p1>Designed to help users unwind and alleviate stress, this feature offers a diverse range of meditation exercises </p>
+                <p1>Whether you're a beginner or an experienced practitioner, our guided sessions cater to all levels, providing a soothing path to relaxation</p>
+            </div>
+
+            <div class = "meditation-content">
+                <a href="meditation.html" class="meditation-link">
+                    <img src = "meditation_img.png">
+                </a>
+            </div>
+
+
+
+        </div>
+
+        <div class = "stress">
+            <div class = "stressimg">
+                <a href = "stress.html">
+                    <img src="sound-library.png" >
+                </a>
+            </div>
+
+            <div class= "stressdesc">
+                <h1> Stress Assesment </h1>
+                <p1>Take charge of your well-being with our Stress Assessment Quiz feature  </p>
+                <p1>Begin your journey to a stress-free life by answering thoughtfully crafted questions tailored to assess your stress levels and triggers</p>
+                <p1>Upon completion, receive personalized insights and expert-backed tips on stress management</p>
+                </div>
+
+        </div>
+
+        <div class = "quote">
+            <h1> (<em>"Gambling is not about money; it is about the thrill of the risk"</em>)</h1>
+            <h2> - Buddha </h2>
+        </div>
+            <script>
+            const time = new Date().getHours();
+            let greeting;
+            if (time < 10) {
+            greeting = "Good morning!";
+            } else if (time < 20) {
+            greeting = "Good day!";
+            } else {
+            greeting = "Good evening!";
+            }
+            document.getElementById("time").innerHTML = greeting;
+            </script>
+    </body>
+</html>
