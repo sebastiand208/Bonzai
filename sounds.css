@@ -8,7 +8,7 @@ body
     width: 89%;
     min-height:200px;
     padding:5%;
-    background-image: linear-gradient(rgba(0, 8, 51, 0.9),rgba(0, 8, 51, 0.9)),url("sounds-background.png");
+    background-image: linear-gradient(rgba(242, 210, 189, 0.9),rgba(242, 210, 189, 0.9)),url("sounds-background.png");
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -24,8 +24,10 @@ body
 
 .btn
 {
-    color: #0047AB;
-    border: 1px solid #0047AB;
+    color: #5C4033;
+    border: 1px solid #5C4033;
+    border-width: 5px;
+    border-radius: 30px;
     background: none;
     padding: 10px 20px;
     font-size: 20px;
@@ -35,9 +37,11 @@ body
 }
 
 .btn:hover{
-    color: #4C516D;
-    border: #4C516D;
-    box-shadow: 1px 1px 15px 5px #4C516D;
+    color: #5C4033;
+    border: 1px solid #5C4033;
+    border-width: 5px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px 5px #5C4033;
 }
 /*.btn::before{
     border: 1px solid blue;
@@ -92,29 +96,43 @@ form
 
 header
 {
-    color: #0047AB; /* Header 1 Text Color: #FFFDD0 */
+    color: #5C4033; /* Header 1 Text Color: #FFFDD0 */
     font-size: 100px; /* Text Size: 40 */
-    font-family: "Monaco", monospace; /* Font: Monaco, Spacing: Monospace */
+    font-family: Comic Sans MS (cursive); /* Font: Monaco, Spacing: Monospace */
     font-weight: bold; /* Weight: Bold */
     margin-right: 40px; /* Right Margin: 40px */
     text-align: center; /* Alignment: Center */
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
 h1
 {
-    color: #0047AB; /* Header 1 Text Color: #FFFDD0 */
+    color: #5C4033; /* Header 1 Text Color: #FFFDD0 */
     font-size: 40px; /* Text Size: 40 */
     margin-left: 45%;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    
 }
 
 
 p
 {
-    color: #0047AB; /* Paragraph Text Color: #CCF6BE */
+    color: #5C4033; /* Paragraph Text Color: #CCF6BE */
     font-family: "Monaco", monospace; /* Font: Monaco, Spacing: Monospace */
-    font-size: 20px; /* Text Size: 20 */
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000; /* Text Outline Color: Black , (1px) */
+    font-size: 25px; /* Text Size: 20 */
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white; /* Text Outline Color: Black , (1px) */
     margin-left: 5%;
     margin-right: 5%;
     text-align: center; /* Alignment: Center */
 }
+
+
+
+
+
+
+
+
+
+
+

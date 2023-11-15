@@ -7,26 +7,23 @@
     </head>
     <body>
         <div class = "header">
-                <h1> Welcome to Bonsai </h1>
+                <h1> Welcome to Bonzai </h1>
         <div class = "headertxt"> 
-         <p id="time">Good Evening!</p> 
+         <p3 id="time">hi</p> 
         </div>
             <img src = "matt3.jpg"/> 
         </div>
-
 
         <div class = "statement">
             <p> Discover a sanctuary of calm and tranquility at Bonzai. </p>
             <p> Unwind, relax, and rejuvenate with our curated collection of expertly crafted stress relief resources, designed to bring balance back into your life.  </p>
             <p> Embrace a journey towards inner peace and well-being, and let us guide you towards a more serene and centered you.</p>
         </div>
-
-
         <div class = "sound">
-           
+
             <div class = "soundimg">
                 <a href = "sounds.html">
-                    <img src="sound-library.png" >
+                    <img src = "bonzai6.png"/>
                 </a>
             </div>
             
@@ -40,26 +37,20 @@
             </div>
         </div>
 
-
-
-
         <div class = "meditation">
-            
-            <div class= "meditationdesc">
-                <h1> Meditation and Breathing </h1>
-                <p1>Discover inner peace and serenity with our Guided Meditation Sessions feature</p>
-                <p1>Designed to help users unwind and alleviate stress, this feature offers a diverse range of meditation exercises </p>
-                <p1>Whether you're a beginner or an experienced practitioner, our guided sessions cater to all levels, providing a soothing path to relaxation</p>
+            <div class = "box">
+                <div class= "meditationdesc">
+                    <h1> Meditation and Breathing </h1>
+                    <p1>Discover inner peace and serenity with our Guided Meditation Sessions feature</p>
+                    <p1>Designed to help users unwind and alleviate stress, this feature offers a diverse range of meditation exercises </p>
+                    <p1>Whether you're a beginner or an experienced practitioner, our guided sessions cater to all levels, providing a soothing path to relaxation</p>
+                </div>
             </div>
-
             <div class = "meditation-content">
-                <a href="meditation.html" class="meditation-link">
+                <a href="https://meditationtimer.vercel.app/" class="meditation-link">
                     <img src = "meditation_img.png">
                 </a>
             </div>
-
-
-
         </div>
 
         <div class = "stress">
@@ -68,24 +59,24 @@
                     <img src="sound-library.png" >
                 </a>
             </div>
-
+            <div class = "box">
             <div class= "stressdesc">
-                <h1> Stress Assesment </h1>
-                <p1>Take charge of your well-being with our Stress Assessment Quiz feature  </p>
-                <p1>Begin your journey to a stress-free life by answering thoughtfully crafted questions tailored to assess your stress levels and triggers</p>
-                <p1>Upon completion, receive personalized insights and expert-backed tips on stress management</p>
+                <h1> Your Path to Serenity and Wellness </h1>
+                <p1>Discover a world of tranquility and well-being with Bonzai, your go-to app for stress relief,   </p>
+                <p1>meditation, and holistic health tips. In today's fast-paced world, finding moments of calm is</p>
+                <p1>essential, and Bonzai is here to guide you on your journey to a healthier, more balanced life.</p>
                 </div>
-
+            </div>
         </div>
 
         <div class = "quote">
-            <h1> (<em>"Gambling is not about money; it is about the thrill of the risk"</em>)</h1>
-            <h2> - Buddha </h2>
+            <h1> (<em>"Calm mind brings inner strength and self-confidence"</em>)</h1>
+            <h2> - Dalai Lama </h2>
         </div>
-            <script>
+        <script>
             const time = new Date().getHours();
             let greeting;
-            if (time < 10) {
+            if (time < 12) {
             greeting = "Good morning!";
             } else if (time < 20) {
             greeting = "Good day!";
@@ -93,6 +84,6 @@
             greeting = "Good evening!";
             }
             document.getElementById("time").innerHTML = greeting;
-            </script>
+        </script>
     </body>
 </html>

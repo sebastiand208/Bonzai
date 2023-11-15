@@ -1,0 +1,104 @@
+*{
+    margin: 0; /* no whitespace*/
+    padding: 0;
+   
+
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url("https://cdn.discordapp.com/attachments/1167704828445732884/1172986870674759740/wp9609256.png?ex=65625027&is=654fdb27&hm=0541ad15f5b4ad008beebeb00fe8c394e855f679bf0ec75810f1261b0febd006&");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.button
+{
+    float: left; /* Float: Left */
+    font-family: "Monaco", monospace; /* Font: Monaco, Spacing: Monospace */
+    color: #0047AB;
+    margin-left: 1%;
+}
+
+.btn
+{
+    color: white;
+    border: 1px solid white;
+    border-width: 5px;
+    border-radius: 30px;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+}
+
+.btn:hover{
+    color: white;
+    border: 1px solid white;
+    border-width: 5px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 15px 5px white;
+}
+
+.row{
+    display:flex;
+    height: 88%;
+    align-items: center;
+    
+    }
+    .col{
+        flex-basis: 50%;
+    }
+
+    h1{
+color: white;
+font-size:100px;
+    }
+    p{
+        color: white;  /* WHY TF IS THIS NOT WORKING*/
+        line-height: 15px;;
+    }
+
+    .box{
+width: 250px;
+height: 270px;
+display: inline-block;
+border-radius: 10px;
+box-sizing: border-box;
+cursor: pointer;
+margin:10px 15px;
+background-image: url(https://blogimage.vantagefit.io/vfitimages/2023/05/VFit__Blue-2.png);
+background-position: center;
+background-size: cover;
+transition: 0.5s;
+}
+
+h5{
+font-size: 20px;
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+.box1{
+background-image: url(https://flearningstudio.com/wp-content/uploads/2021/06/Healthcare-Business.png);
+}
+.box2{
+    background-image: url(https://blogimage.vantagefit.io/vfitimages/2023/05/VFit__Blue-2.png);
+}
+.box3{
+    background-image: url(https://dm0qx8t0i9gc9.cloudfront.net/thumbnails/video/HGATaVJubj6casdeu/videoblocks-doctor-professional-character-health-animation-4k-video-animated_ryx6uu5ti_thumbnail-1080_01.png);
+}
+.box4{
+    background-image: url(https://blogimage.vantagefit.io/vfitimages/2020/11/7_minutes_workout.png); 
+}
+
+.card:hover{
+transform: translateY(-10px);
+}
